@@ -1,0 +1,111 @@
+.hero{
+    margin: 0px 120px;
+    margin-top: 85px;
+}
+.hero-text{
+    color: #FFF;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 100px;
+    transition:0.5s ;
+}
+.hero-text:hover{
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+}
+.hero-explore{
+    /* display: flex;
+    align-self: center;
+    gap: 50px;
+    width: fit-content;
+    margin-top: 70px;
+    padding: 5px 8px;
+    padding-left: 30px;
+    border-radius: 60px;
+    background-color: white;
+    cursor: pointer; */
+    gap: 50px;
+    margin-top: 70px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 1rem 2rem;
+    width: 100%;
+    width:275px ;
+        max-width: 100%;
+        position: relative;
+}
+.hero-explore:focus {
+    outline: 2px solid white;
+}
+.hero-explore p{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+button:hover {
+    opacity: 0.8;
+    background: blue;
+}
+button {
+    border: none;
+    cursor: pointer;
+    border: 2px solid black;
+
+}
+.arrow-button:hover{
+    border: 2px solid black;
+    background-image: linear-gradient(to top,#fff,orangered);
+}
+
+
+.hero-explore button{
+    background: #fff;
+    border-radius: 50px;
+    aspect-ratio: 1;
+    height: 80%;
+    
+    position: absolute;
+    top: 10%;
+    right: 5px;
+}
+
+.hero-dot-play{
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+.hero-dots{
+    display: flex;
+    align-self: center;
+    gap: 23px;
+    list-style: none;
+}
+.hero-dot{
+    width: 15px;
+    height: 15px;
+    background: #FFF;
+    border-radius: 7.5px;
+    cursor: pointer;
+}
+.hero-dot.orange{
+    background: orangered;
+}
+.hero-play{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.hero-play p{
+    color: #FFF;
+    font-size: 19px;
+    transition: 0.5s;
+}
+.hero-play p:hover{
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    
+}
