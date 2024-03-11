@@ -1,5 +1,8 @@
 This project includes 3 pages a dynamic website containing 2 different types EDITORS and a HOME Page. This is part of Atlan Frontend Assignment, build using React + Vite + CSS. It enables users to run SQL queries in an online editor, and analyze the output obtained as a result of running the queries.
 
+The live link fro the project is : 
+https://atlan-assignment-sql-runner-007-epf8fifpi.vercel.app/
+
 The dummy data used in the application is obtained from (https://github.com/graphql-compose/graphql-compose-examples/tree/master/examples/northwind/data/csv).
 
 For Editor1:
